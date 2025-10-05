@@ -24,3 +24,14 @@ button {
   #button {
     text-align: center;
   }
+      #mensagem {
+      display: none;
+      font-size: 20px;
+      color: blue;
+      margin-top: 10px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      cursor: pointer;}
+
