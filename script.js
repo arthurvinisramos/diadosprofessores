@@ -1,9 +1,13 @@
+const botao = document.getElementById('botao');
+const musica = document.getElementById('musica');
 
-    function tocarMusica() {
-      const audio = document.getElementById('som')
-      const msg = document.getElementById('mensagem')
+botao.addEventListener('click', () => {
+  
+  musica.play();
 
-      audio.play()
-      msg.style.display = 'block'
-    }
- 
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+  });
+});
+
