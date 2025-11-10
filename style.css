@@ -2,6 +2,7 @@
     font-family: Montserrat;
     text-align: center;
     color: aquamarine;
+    background-color: black;
 } 
 body {
     background-image: url('istockphoto-486325400-612x612.jpg');
@@ -34,5 +35,12 @@ button {
       font-size: 18px;
       padding: 10px 20px;
       cursor: pointer;}
-        
 
+    #inicio {   
+    font-family: Montserrat;
+    text-align: center;
+    color: aquamarine;
+   
+} 
+
+    
